@@ -2,10 +2,10 @@
 
 node ::node()
 {
-    string name = "";
+    string name = " ";
     parent = nullptr;
 }
-node ::node(string nname, node *&nparent)
+node ::node(string nname, node *nparent)
 {
     name = nname;
     parent = nparent;
